@@ -5,7 +5,7 @@ My name is **JEEVAN JOSEPH**  I am studying BCA at Kristu Jyoti College of Manag
 # Experiment-1 **Hello world Led blinking**
 ![Hello world Led blinking](https://myoctocat.com/assets/images/base-octocat.svg)
 ## code
-```ino
+```
 void setup() 
 {
    pinMode(8, OUTPUT);
@@ -23,7 +23,7 @@ void loop() {
 # Experiment-2 **Traffic Light**
 ![Traffic Light](https://myoctocat.com/assets/images/base-octocat.svg)
 ## code
-```ino
+```
 void setup() 
 {
    pinMode(13, OUTPUT);
@@ -54,6 +54,54 @@ void loop()
 # Experiment-3 **LED Chasing Effect**
 ![LED Chasing Effect](https://myoctocat.com/assets/images/base-octocat.svg)
 ## code
+```
+int BASE = 2 ;
+int NUM = 6;
+void setup()
+{
+   for (int i = BASE; i < BASE + NUM; i ++) 
+   {
+     pinMode(i, OUTPUT);
+   }
+}
+void loop()
+{
+   for (int i = BASE; i < BASE + NUM; i ++) 
+   {
+     digitalWrite(i, LOW);
+     delay(200);
+   }
+   for (int i = BASE; i < BASE + NUM; i ++) 
+   {
+     digitalWrite(i, HIGH);
+     delay(200);
+   }  
+}
+```
+# Experiment-4 **Button Controlled LED**
+![Button Controlled LED](https://myoctocat.com/assets/images/base-octocat.svg)
+## code
+```
+int x;
+void setup()
+{
+  pinMode(11, OUTPUT);
+  pinMode(7, INPUT);
+}
+void loop()
+{
+  val=digitalRead(7);
+  if(x == LOW)
+  {
+    digitalWrite(11, LOW);
+  }
+  else
+  {
+    digitalWrite(11, HIGH);
+  }
+}
+```
+
 
 
 
