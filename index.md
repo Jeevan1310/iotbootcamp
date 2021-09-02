@@ -51,6 +51,9 @@ void loop()
   digitalWrite(8, LOW);
 }
 ```
+# Experiment-3 **LED Chasing Effect**
+![LED Chasing Effect](https://myoctocat.com/assets/images/base-octocat.svg)
+## code
 
 
 
