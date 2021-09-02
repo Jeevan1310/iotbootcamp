@@ -119,7 +119,7 @@ void loop()
 }
 ```
 ## Experience
-*ringing BUZZER is a differnt experience. I become success in first try for ringing the buzzer yeah! i love that buzzer sound*
+*Ringing BUZZER is a differnt experience. I become success in first try for ringing the buzzer yeah! i love that buzzer sound*
 
 # Experiment-5 **RGB LED**
 ![RGB LED]()
