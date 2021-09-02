@@ -5,7 +5,7 @@ My name is **JEEVAN JOSEPH**  I am studying BCA at Kristu Jyoti College of Manag
 # Experiment-1 **Hello world Led blinking**
 ![Hello world Led blinking](https://myoctocat.com/assets/images/base-octocat.svg)
 ## code
-```
+```ino
 void setup() 
 {
    pinMode(8, OUTPUT);
@@ -23,7 +23,7 @@ void loop() {
 # Experiment-2 **Traffic Light**
 ![Traffic Light](https://myoctocat.com/assets/images/base-octocat.svg)
 ## code
-```
+```ino
 void setup() 
 {
    pinMode(13, OUTPUT);
@@ -54,7 +54,7 @@ void loop()
 # Experiment-3 **LED Chasing Effect**
 ![LED Chasing Effect](https://myoctocat.com/assets/images/base-octocat.svg)
 ## code
-```
+```ino
 int BASE = 2 ;
 int NUM = 6;
 void setup()
@@ -81,7 +81,7 @@ void loop()
 # Experiment-4 **Button Controlled LED**
 ![Button Controlled LED](https://myoctocat.com/assets/images/base-octocat.svg)
 ## code
-```
+```ino
 int x;
 void setup()
 {
@@ -106,7 +106,7 @@ void loop()
 # Experiment-5 **Buzzer**
 ![Buzzer](https://myoctocat.com/assets/images/base-octocat.svg)
 ## code
-```
+```ino
 int x = 8;
 void setup() 
 { 
