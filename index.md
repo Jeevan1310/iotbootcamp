@@ -101,6 +101,22 @@ void loop()
   }
 }
 ```
+### Errors
+*In here i got bit confused how to connect button in breaadboard so i googled it and it become success*
+# Experiment-5 **Buzzer**
+![Buzzer](https://myoctocat.com/assets/images/base-octocat.svg)
+## code
+```
+int x = 8;
+void setup() 
+{ 
+  pinMode(x,OUTPUT);
+} 
+void loop() 
+{
+  digitalWrite(x, HIGH);
+}
+```
 
 
 
