@@ -206,6 +206,26 @@ void loop()
 ![LM35 Temperature Sensor]()
 ## code
 ```ino
+int potPin = 0; 
+void setup()
+{
+Serial.begin(9600);
+}
+void loop()
+{
+int val;
+int dat;
+val=analogRead(0);
+dat=(125*val)>>8;
+Serial.print("Tep");
+Serial.print(dat);
+Serial.println("C");
+delay(500);
+```
+# Experiment-10 **IR Remote Control Using TSOP**
+![IR Remote Control Using TSOP]()
+## code
+```ino
 #include <IRremote.h>
 int RECV_PIN = 11;
 int LED1 = 2;
@@ -284,7 +304,7 @@ void setup()
   pinMode(LED6, OUTPUT);  
   pinMode(13, OUTPUT);
   Serial.begin(9600);
-   irrecv.enableIRIn();
+   irrecv.enableIRIn(); // Start the receiver
  }
 int on = 0;
 unsigned long last = millis();
@@ -292,8 +312,6 @@ void loop()
 {
   if (irrecv.decode(&results)) 
    {
-    
-    
     if (millis() - last > 250) 
       {
        on = !on;
@@ -328,14 +346,15 @@ void loop()
 irrecv.resume(); 
   }
 }
+}
 ```
-# Experiment-10 **IR Remote Control Using TSOP**
-![IR Remote Control Using TSOP]()
+# Experiment-10 **Potentiometer analog Value Reading**
+![Potentiometer analog Value Reading]()
 ## code
 ```ino
 int potpin=0;
 int ledpin=13;
-int val=0;
+int val=0;//
 void setup()
 {
 pinMode(ledpin,OUTPUT);
@@ -351,6 +370,7 @@ val=analogRead(potpin);
 Serial.println(val);
 }
 ```
+
 # Experiment-12 **7 Segment Display**
 ![7 Segment Display]()
 ## code
