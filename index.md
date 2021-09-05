@@ -121,7 +121,7 @@ void loop()
 ## Experience
 *Ringing BUZZER is a differnt experience. I become success in first try for ringing the buzzer yeah! i love that buzzer sound*
 
-# Experiment-5 **RGB LED**
+# Experiment-6 **RGB LED**
 ![RGB LED]()
 ## code
 ```ino
@@ -154,11 +154,168 @@ for(x=0; x<255; x++)
  Serial.println(x, DEC);
 }
 ```
-
-
-
-
-
-
-
-    
+# Experiment-7 **LDR Light Sensor**
+![RGB LED]()
+## code
+```ino
+int red = 11;
+int blue =10;
+int green =9;
+int x;
+void setup() {
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+  pinMode(green, OUTPUT);
+  Serial.begin(9600);
+}
+void loop() 
+{
+for(x=255; x>0; x--)
+  {
+   analogWrite(11, x);
+   analogWrite(10, 255-x);
+   analogWrite(9, 128-x);
+   delay(10); 
+  }
+for(x=0; x<255; x++)
+  {
+   analogWrite(11, x);
+   analogWrite(10, 255-x);
+   analogWrite(9, 128-x);
+   delay(10); 
+  }
+ Serial.println(x, DEC);
+}
+```
+# Experiment-8 **Flame Sensor**
+![RGB LED]()
+## code
+```ino
+int red = 11;
+int blue =10;
+int green =9;
+int x;
+void setup() {
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+  pinMode(green, OUTPUT);
+  Serial.begin(9600);
+}
+void loop() 
+{
+for(x=255; x>0; x--)
+  {
+   analogWrite(11, x);
+   analogWrite(10, 255-x);
+   analogWrite(9, 128-x);
+   delay(10); 
+  }
+for(x=0; x<255; x++)
+  {
+   analogWrite(11, x);
+   analogWrite(10, 255-x);
+   analogWrite(9, 128-x);
+   delay(10); 
+  }
+ Serial.println(x, DEC);
+}
+```
+# Experiment-9 **LM35 Temperature Sensor**
+![RGB LED]()
+## code
+```ino
+int red = 11;
+int blue =10;
+int green =9;
+int x;
+void setup() {
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+  pinMode(green, OUTPUT);
+  Serial.begin(9600);
+}
+void loop() 
+{
+for(x=255; x>0; x--)
+  {
+   analogWrite(11, x);
+   analogWrite(10, 255-x);
+   analogWrite(9, 128-x);
+   delay(10); 
+  }
+for(x=0; x<255; x++)
+  {
+   analogWrite(11, x);
+   analogWrite(10, 255-x);
+   analogWrite(9, 128-x);
+   delay(10); 
+  }
+ Serial.println(x, DEC);
+}
+```
+# Experiment-10 **IR Remote Control Using TSOP**
+![RGB LED]()
+## code
+```ino
+int red = 11;
+int blue =10;
+int green =9;
+int x;
+void setup() {
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+  pinMode(green, OUTPUT);
+  Serial.begin(9600);
+}
+void loop() 
+{
+for(x=255; x>0; x--)
+  {
+   analogWrite(11, x);
+   analogWrite(10, 255-x);
+   analogWrite(9, 128-x);
+   delay(10); 
+  }
+for(x=0; x<255; x++)
+  {
+   analogWrite(11, x);
+   analogWrite(10, 255-x);
+   analogWrite(9, 128-x);
+   delay(10); 
+  }
+ Serial.println(x, DEC);
+}
+```
+# Experiment-12 **7 Segment Display**
+![RGB LED]()
+## code
+```ino
+int red = 11;
+int blue =10;
+int green =9;
+int x;
+void setup() {
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+  pinMode(green, OUTPUT);
+  Serial.begin(9600);
+}
+void loop() 
+{
+for(x=255; x>0; x--)
+  {
+   analogWrite(11, x);
+   analogWrite(10, 255-x);
+   analogWrite(9, 128-x);
+   delay(10); 
+  }
+for(x=0; x<255; x++)
+  {
+   analogWrite(11, x);
+   analogWrite(10, 255-x);
+   analogWrite(9, 128-x);
+   delay(10); 
+  }
+ Serial.println(x, DEC);
+}
+```
