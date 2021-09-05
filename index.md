@@ -122,7 +122,7 @@ void loop()
 *Ringing BUZZER is a differnt experience. I become success in first try for ringing the buzzer yeah! i love that buzzer sound*
 
 # Experiment-6 **RGB LED**
-![RGB LED]()
+![RGB LED](https://github.com/Jeevan1310/iotbootcamp/blob/main/ex5.png)
 ## code
 ```ino
 int red = 11;
@@ -375,3 +375,5 @@ digitalWrite(f,HIGH);
 digitalWrite(g,LOW);
 digitalWrite(dp,LOW);
 ```
+## **Assignment**
+
