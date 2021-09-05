@@ -79,7 +79,7 @@ void loop()
 }
 ```
 # Experiment-4 **Button Controlled LED**
-![Button Controlled LED](https://github.com/Jeevan1310/iotbootcamp/blob/main/E04.jpg)
+![Button Controlled LED](https://user-images.githubusercontent.com/81223681/132132170-6a877a8b-b97f-4c02-aa53-dd5bbab4eb77.jpg)
 ## code
 ```ino
 int x;
@@ -105,7 +105,7 @@ void loop()
 *In here i got bit confused how to connect button in breaadboard so i googled it and it become success*
 
 # Experiment-5 **Buzzer**
-![Buzzer](https://github.com/Jeevan1310/iotbootcamp/blob/main/E05.jpg)
+![Buzzer](https://user-images.githubusercontent.com/81223681/132132437-105179c3-1d11-4f6b-ac31-45de2b2f84fd.jpg)
 ## code
 ```ino
 int x = 8;
@@ -122,7 +122,7 @@ void loop()
 *Ringing BUZZER is a differnt experience. I become success in first try for ringing the buzzer yeah! i love that buzzer sound*
 
 # Experiment-6 **RGB LED**
-![RGB LED](https://github.com/Jeevan1310/iotbootcamp/blob/main/ex5.png)
+![RGB LED](https://user-images.githubusercontent.com/81223681/132132464-e15289c6-31ee-4355-ba5a-f76742c1bae2.png)
 ## code
 ```ino
 int red = 11;
@@ -349,7 +349,7 @@ irrecv.resume();
 }
 ```
 # Experiment-10 **Potentiometer analog Value Reading**
-![Potentiometer analog Value Reading](https://github.com/Jeevan1310/iotbootcamp/blob/main/E11.jpg)
+![Potentiometer analog Value Reading](https://user-images.githubusercontent.com/81223681/132132510-d4feb143-d0c6-4847-be13-e0a2a89c776a.jpg)
 ## code
 ```ino
 int potpin=0;
@@ -371,7 +371,7 @@ Serial.println(val);
 }
 ```
 ## Result
-![Result](https://github.com/Jeevan1310/iotbootcamp/blob/main/E11a.png)
+![Result](https://user-images.githubusercontent.com/81223681/132132537-52a52c8c-0e24-4b47-b4fc-325cc5fad433.png)
 
 # Experiment-12 **7 Segment Display**
 ![7 Segment Display]()
