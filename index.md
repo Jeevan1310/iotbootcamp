@@ -3,7 +3,7 @@
 My name is **JEEVAN JOSEPH**  I am studying BCA at Kristu Jyoti College of Management and Technology, Changanassery I joined this bootcamp because i am a noobie to IOT. I don't know what to do in iot so when i got this oppurtunity i started learning iot .
 
 # Experiment-1 **Hello world Led blinking**
-![Hello world Led blinking](https://github.com/Jeevan1310/iotbootcamp/blob/main/E01.jpg)
+![Hello world Led blinking](https://user-images.githubusercontent.com/81223681/132131842-8e3d931e-5bfd-43fc-8e4f-81e243edea94.png)
 ## code
 ```ino
 void setup() 
@@ -21,7 +21,7 @@ void loop() {
 *As a Noobie I don't know what to do in IOT when i connecting bulb to the breadboard it does not glow i tried more but the led doesnot glow then i give it to direct connection it glow and exploded but later come to know that it was my mistake in connecting the wire wrongly*
 
 # Experiment-2 **Traffic Light**
-![Traffic Light](https://github.com/Jeevan1310/iotbootcamp/blob/main/E02.jpg)
+![Traffic Light](https://user-images.githubusercontent.com/81223681/132131894-a83d271f-d79a-4937-b94d-50115592d896.png)
 ## code
 ```ino
 void setup() 
@@ -52,7 +52,7 @@ void loop()
 }
 ```
 # Experiment-3 **LED Chasing Effect**
-![LED Chasing Effect](https://github.com/Jeevan1310/iotbootcamp/blob/main/E03.jpg)
+![LED Chasing Effect](https://user-images.githubusercontent.com/81223681/132132029-b888b527-b404-43ad-ae12-186a1d658b4b.jpg)
 ## code
 ```ino
 int BASE = 2 ;
