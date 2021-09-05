@@ -155,70 +155,52 @@ for(x=0; x<255; x++)
 }
 ```
 # Experiment-7 **LDR Light Sensor**
-![RGB LED]()
+![LDR Light Sensor]()
 ## code
 ```ino
-int red = 11;
-int blue =10;
-int green =9;
-int x;
-void setup() {
-  pinMode(red, OUTPUT);
-  pinMode(blue, OUTPUT);
-  pinMode(green, OUTPUT);
-  Serial.begin(9600);
-}
-void loop() 
+int potpin=0;
+int ledpin=11;
+int val=0;
+void setup()
 {
-for(x=255; x>0; x--)
-  {
-   analogWrite(11, x);
-   analogWrite(10, 255-x);
-   analogWrite(9, 128-x);
-   delay(10); 
-  }
-for(x=0; x<255; x++)
-  {
-   analogWrite(11, x);
-   analogWrite(10, 255-x);
-   analogWrite(9, 128-x);
-   delay(10); 
-  }
- Serial.println(x, DEC);
+pinMode(ledpin,OUTPUT);
+Serial.begin(9600);
+}
+void loop()
+{
+val=analogRead(potpin);
+Serial.println(val);
+analogWrite(ledpin,val/4);
+delay(10);
 }
 ```
 # Experiment-8 **Flame Sensor**
-![RGB LED]()
+![Flame Sensor()
 ## code
 ```ino
-int red = 11;
-int blue =10;
-int green =9;
-int x;
-void setup() {
-  pinMode(red, OUTPUT);
-  pinMode(blue, OUTPUT);
-  pinMode(green, OUTPUT);
-  Serial.begin(9600);
-}
-void loop() 
+int flame=0;
+int Beep=9;
+int val=0;
+ void setup() 
 {
-for(x=255; x>0; x--)
-  {
-   analogWrite(11, x);
-   analogWrite(10, 255-x);
-   analogWrite(9, 128-x);
-   delay(10); 
-  }
-for(x=0; x<255; x++)
-  {
-   analogWrite(11, x);
-   analogWrite(10, 255-x);
-   analogWrite(9, 128-x);
-   delay(10); 
-  }
- Serial.println(x, DEC);
+  pinMode(Beep,OUTPUT);
+ pinMode(flame,INPUT);
+ Serial.begin(9600);
+ } 
+void loop() 
+{ 
+  val=analogRead(flame);
+  Serial.println(val);
+  if(val>=600)
+  {  
+   digitalWrite(Beep,HIGH); 
+   }else 
+   {  
+     digitalWrite(Beep,LOW); 
+    }
+   delay(500); 
 }
+
 ```
 # Experiment-9 **LM35 Temperature Sensor**
 ![LM35 Temperature Sensor]()
@@ -315,7 +297,6 @@ void loop()
     if (millis() - last > 250) 
       {
        on = !on;
-//       digitalWrite(8, on ? HIGH : LOW);
        digitalWrite(13, on ? HIGH : LOW);
        dump(&results);
       }
