@@ -349,7 +349,7 @@ irrecv.resume();
 }
 ```
 # Experiment-10 **Potentiometer analog Value Reading**
-![Potentiometer analog Value Reading]()
+![Potentiometer analog Value Reading](https://github.com/Jeevan1310/iotbootcamp/blob/main/E11.jpg)
 ## code
 ```ino
 int potpin=0;
@@ -370,6 +370,8 @@ val=analogRead(potpin);
 Serial.println(val);
 }
 ```
+## Result
+![Result](https://github.com/Jeevan1310/iotbootcamp/blob/main/E11a.png)
 
 # Experiment-12 **7 Segment Display**
 ![7 Segment Display]()
@@ -513,7 +515,7 @@ delay(1000);
 digital_8();
 delay(1000); 
 digital_9();
-delay(1000); =
+delay(1000); 
 }}
 ```
 ## **Assignment**
