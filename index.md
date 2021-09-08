@@ -520,7 +520,7 @@ delay(1000);
 ```
 ## **Assignment**
 
-
+![assignment](https://user-images.githubusercontent.com/81223681/132480345-65ad96c0-6bce-41df-83ac-9883cb95afca.jpg)
 ###Code
 ```ino
 int first = 2;
