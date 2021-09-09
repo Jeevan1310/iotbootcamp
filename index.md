@@ -175,7 +175,7 @@ delay(10);
 }
 ```
 # Experiment-8 **Flame Sensor**
-![Flame Sensor]()
+![Flame Sensor](https://user-images.githubusercontent.com/81223681/132700870-62a38792-7953-44ec-abaf-37c532eb3679.jpg)
 ## Code
 ```ino
 int flame=0;
