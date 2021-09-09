@@ -226,7 +226,7 @@ delay(500);
 ![result](https://user-images.githubusercontent.com/81223681/132671749-5bced7b8-3027-46b0-8dd8-1ae064c43ad9.png)
 
 # Experiment-10 **IR Remote Control Using TSOP**
-![IR Remote Control Using TSOP]()
+![IR Remote Control Using TSOP](https://user-images.githubusercontent.com/81223681/132693287-c058fc22-555f-48e7-8e31-f1ed78528961.jpg)
 ## Code
 ```ino
 #include <IRremote.h>
