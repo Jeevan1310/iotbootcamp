@@ -522,7 +522,7 @@ delay(1000);
 }}
 ```
 # **IOT Bootcamp Challenges**
-## *Assignment 1 : Automatic Night Lamp using LDR & LED*
+### **Assignment 1 : Automatic Night Lamp using LDR & LED**
 
 ![assignment](https://user-images.githubusercontent.com/81223681/132480345-65ad96c0-6bce-41df-83ac-9883cb95afca.jpg)
 ## Code
@@ -624,5 +624,9 @@ void loop() {
 
 }
 ```
+### **Assignment 2 : Digital Dice using 6 LEDs & 1 Push ButtonD**
+
+![assignment 2]()
+## Code
 
 
