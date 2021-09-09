@@ -551,7 +551,7 @@ void loop()
 ```
 ### **Assignment 2 - Digital Dice using 6 LEDs & 1 Push Button**
 
-![assignment 2]()
+![assignment 2](https://user-images.githubusercontent.com/81223681/132691137-1dc0f6a6-185d-403c-bf45-9b230a1810c9.jpg)
 ## Code
 ```ino
 int first = 2;
