@@ -203,7 +203,7 @@ void loop()
 
 ```
 # Experiment-9 **LM35 Temperature Sensor**
-![LM35 Temperature Sensor]()
+![LM35 Temperature Sensor](https://user-images.githubusercontent.com/81223681/132671460-ff4eb81a-3575-4118-9551-ead88ff7e806.png)
 ## code
 ```ino
 int potPin = 0; 
@@ -222,6 +222,9 @@ Serial.print(dat);
 Serial.println("C");
 delay(500);
 ```
+## Result
+![result](https://user-images.githubusercontent.com/81223681/132671749-5bced7b8-3027-46b0-8dd8-1ae064c43ad9.png)
+
 # Experiment-10 **IR Remote Control Using TSOP**
 ![IR Remote Control Using TSOP]()
 ## code
@@ -518,10 +521,11 @@ digital_9();
 delay(1000); 
 }}
 ```
+# IOT Bootcamp Challenges
 ## **Assignment**
 
 ![assignment](https://user-images.githubusercontent.com/81223681/132480345-65ad96c0-6bce-41df-83ac-9883cb95afca.jpg)
-###Code
+## Code
 ```ino
 int first = 2;
 int second = 3;
