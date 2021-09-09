@@ -155,8 +155,8 @@ for(x=0; x<255; x++)
 }
 ```
 # Experiment-7 **LDR Light Sensor**
-![LDR Light Sensor]()
-## code
+![LDR Light Sensor](https://user-images.githubusercontent.com/81223681/132687007-ef053a68-e831-4dfa-b176-bc3277e0bb84.png)
+## Code
 ```ino
 int potpin=0;
 int ledpin=11;
@@ -176,7 +176,7 @@ delay(10);
 ```
 # Experiment-8 **Flame Sensor**
 ![Flame Sensor]()
-## code
+## Code
 ```ino
 int flame=0;
 int Beep=9;
@@ -204,7 +204,7 @@ void loop()
 ```
 # Experiment-9 **LM35 Temperature Sensor**
 ![LM35 Temperature Sensor](https://user-images.githubusercontent.com/81223681/132671460-ff4eb81a-3575-4118-9551-ead88ff7e806.png)
-## code
+## Code
 ```ino
 int potPin = 0; 
 void setup()
@@ -227,7 +227,7 @@ delay(500);
 
 # Experiment-10 **IR Remote Control Using TSOP**
 ![IR Remote Control Using TSOP]()
-## code
+## Code
 ```ino
 #include <IRremote.h>
 int RECV_PIN = 11;
@@ -378,7 +378,7 @@ Serial.println(val);
 
 # Experiment-12 **7 Segment Display**
 ![7 Segment Display]()
-## code
+## Code
 ```ino
 int a=7;
 int b=6;
@@ -521,8 +521,8 @@ digital_9();
 delay(1000); 
 }}
 ```
-# IOT Bootcamp Challenges
-## **Assignment**
+# **IOT Bootcamp Challenges**
+## *Assignment 1 : Automatic Night Lamp using LDR & LED*
 
 ![assignment](https://user-images.githubusercontent.com/81223681/132480345-65ad96c0-6bce-41df-83ac-9883cb95afca.jpg)
 ## Code
