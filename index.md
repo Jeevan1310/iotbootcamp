@@ -377,7 +377,7 @@ Serial.println(val);
 ![Result](https://user-images.githubusercontent.com/81223681/132132537-52a52c8c-0e24-4b47-b4fc-325cc5fad433.png)
 
 # Experiment-12 **7 Segment Display**
-![7 Segment Display]()
+![7 Segment Display](https://user-images.githubusercontent.com/81223681/132701478-17578291-06f7-48b5-b0b6-539511db5e35.jpg)
 ## Code
 ```ino
 int a=7;
