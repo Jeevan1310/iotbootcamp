@@ -1,6 +1,6 @@
 # IOT Bootcamp
 # About me
-My name is **JEEVAN JOSEPH**  I am studying BCA at Kristu Jyoti College of Management and Technology, Changanassery I joined this bootcamp because i am a noobie to IOT. I don't know what to do in iot so when i got this oppurtunity i started learning iot .
+My name is **JEEVAN JOSEPH**  I am studying ***BCA** at **Kristu Jyoti College of Management and Technology, Changanassery** . I joined this bootcamp because i am a noobie to IOT. I don't know what to do in iot so when i got this oppurtunity i started learning IoT .
 
 # Experiment-1 **Hello world Led blinking**
 ![Hello world Led blinking](https://user-images.githubusercontent.com/81223681/132132767-c9aca05f-0e6d-4f2d-9c07-30f499e9a333.jpg)
@@ -514,7 +514,7 @@ delay(1000);
 }}
 ```
 ## **Experience given by this bootcamp**
-*As a Noobie I don't know what to do in IOT when i connecting bulb to the breadboard it does not glow i tried more but the led doesnot glow then i give it to direct connection it glow and exploded but later come to know that it was my mistake in connecting the wire wrongly. Ringing BUZZER is a differnt experience. I become success in first try for ringing the buzzer yeah! i love that buzzer sound  by attending this bootcamp i've learned lot of things such us more about adriuno and connection circuit etc...
+*As a Noobie I don't know what to do in IOT when i connecting bulb to the breadboard it does not glow i tried more but the led doesnot glow then i give it to direct connection it glow and exploded but later come to know that it was my mistake in connecting the wire wrongly. Ringing BUZZER is a differnt experience. I become success in first try for ringing the buzzer yeah! i love that buzzer sound.  By attending this bootcamp i've learned lot of things such us more about adriuno and connection circuit etc...
 the major thing given by this bootcamp is that i become inspired to do more experiemnts in iot.*
 
 # **IOT Bootcamp Challenges**
