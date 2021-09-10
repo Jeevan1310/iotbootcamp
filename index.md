@@ -17,9 +17,6 @@ void loop() {
   delay(1000);
 }
 ```
-### Experience
-*As a Noobie I don't know what to do in IOT when i connecting bulb to the breadboard it does not glow i tried more but the led doesnot glow then i give it to direct connection it glow and exploded but later come to know that it was my mistake in connecting the wire wrongly*
-
 # Experiment-2 **Traffic Light**
 ![Traffic Light](https://user-images.githubusercontent.com/81223681/132132945-e693e83c-d252-4a70-9fa4-fd28795fd868.jpg)
 ## code
@@ -118,9 +115,6 @@ void loop()
   digitalWrite(x, HIGH);
 }
 ```
-## Experience
-*Ringing BUZZER is a differnt experience. I become success in first try for ringing the buzzer yeah! i love that buzzer sound*
-
 # Experiment-6 **RGB LED**
 ![RGB LED](https://user-images.githubusercontent.com/81223681/132132464-e15289c6-31ee-4355-ba5a-f76742c1bae2.png)
 ## code
@@ -521,6 +515,10 @@ digital_9();
 delay(1000); 
 }}
 ```
+### Experience given by this bootcamp
+*As a Noobie I don't know what to do in IOT when i connecting bulb to the breadboard it does not glow i tried more but the led doesnot glow then i give it to direct connection it glow and exploded but later come to know that it was my mistake in connecting the wire wrongly. Ringing BUZZER is a differnt experience. I become success in first try for ringing the buzzer yeah! i love that buzzer sound  by attending this bootcamp i've learned lot of things such us more about adriuno and connection circuit etc...
+the major thing given by this bootcamp is that i become inspired to do more experiemnts in iot.*
+
 # **IOT Bootcamp Challenges**
 ### **Assignment 1 - Automatic Night Lamp using LDR & LED**
 
