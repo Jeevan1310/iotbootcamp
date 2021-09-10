@@ -4,7 +4,7 @@ My name is **JEEVAN JOSEPH**  I am studying BCA at Kristu Jyoti College of Manag
 
 # Experiment-1 **Hello world Led blinking**
 ![Hello world Led blinking](https://user-images.githubusercontent.com/81223681/132132767-c9aca05f-0e6d-4f2d-9c07-30f499e9a333.jpg)
-## code
+## Code
 ```ino
 void setup() 
 {
@@ -19,7 +19,7 @@ void loop() {
 ```
 # Experiment-2 **Traffic Light**
 ![Traffic Light](https://user-images.githubusercontent.com/81223681/132132945-e693e83c-d252-4a70-9fa4-fd28795fd868.jpg)
-## code
+## Code
 ```ino
 void setup() 
 {
@@ -50,7 +50,7 @@ void loop()
 ```
 # Experiment-3 **LED Chasing Effect**
 ![LED Chasing Effect](https://user-images.githubusercontent.com/81223681/132132029-b888b527-b404-43ad-ae12-186a1d658b4b.jpg)
-## code
+## Code
 ```ino
 int BASE = 2 ;
 int NUM = 6;
@@ -77,7 +77,7 @@ void loop()
 ```
 # Experiment-4 **Button Controlled LED**
 ![Button Controlled LED](https://user-images.githubusercontent.com/81223681/132132170-6a877a8b-b97f-4c02-aa53-dd5bbab4eb77.jpg)
-## code
+## Code
 ```ino
 int x;
 void setup()
@@ -98,12 +98,10 @@ void loop()
   }
 }
 ```
-### Experience
-*In here i got bit confused how to connect button in breaadboard so i googled it and it become success*
 
 # Experiment-5 **Buzzer**
 ![Buzzer](https://user-images.githubusercontent.com/81223681/132132437-105179c3-1d11-4f6b-ac31-45de2b2f84fd.jpg)
-## code
+## Code
 ```ino
 int x = 8;
 void setup() 
@@ -117,7 +115,7 @@ void loop()
 ```
 # Experiment-6 **RGB LED**
 ![RGB LED](https://user-images.githubusercontent.com/81223681/132132464-e15289c6-31ee-4355-ba5a-f76742c1bae2.png)
-## code
+## Code
 ```ino
 int red = 11;
 int blue =10;
@@ -515,7 +513,7 @@ digital_9();
 delay(1000); 
 }}
 ```
-### Experience given by this bootcamp
+## **Experience given by this bootcamp**
 *As a Noobie I don't know what to do in IOT when i connecting bulb to the breadboard it does not glow i tried more but the led doesnot glow then i give it to direct connection it glow and exploded but later come to know that it was my mistake in connecting the wire wrongly. Ringing BUZZER is a differnt experience. I become success in first try for ringing the buzzer yeah! i love that buzzer sound  by attending this bootcamp i've learned lot of things such us more about adriuno and connection circuit etc...
 the major thing given by this bootcamp is that i become inspired to do more experiemnts in iot.*
 
