@@ -1,6 +1,6 @@
 # IOT Bootcamp
 # About me
-My name is **JEEVAN JOSEPH**  I am studying ***BCA** at **Kristu Jyoti College of Management and Technology, Changanassery** . I joined this bootcamp because i am a noobie to IOT. I don't know what to do in iot so when i got this oppurtunity i started learning IoT .
+My name is **JEEVAN JOSEPH**  I am studying **BCA** at **Kristu Jyoti College of Management and Technology, Changanassery** . I joined this bootcamp because i am a noobie to IOT. I don't know what to do in iot so when i got this oppurtunity i started learning IoT .
 
 # Experiment-1 **Hello world Led blinking**
 ![Hello world Led blinking](https://user-images.githubusercontent.com/81223681/132132767-c9aca05f-0e6d-4f2d-9c07-30f499e9a333.jpg)
