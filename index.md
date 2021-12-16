@@ -652,10 +652,10 @@ void loop() {
 ### Second level of IOT Challlenge starts with some basic blynk apps
 
 > **As ESP32 Boards were not available (As of now), I opt for NodeMCU-ESP8266 for conducting the experiments. Even though both boards differ a lot in features & capabilities, NodeMCU-ESP8266 could serve my purpose for the present scenario.**
+> 
 ## Experiment 1 - Hello World LED Program Using Blynk App
 ![assignment 2](https://user-images.githubusercontent.com/81223681/132691137-1dc0f6a6-185d-403c-bf45-9b230a1810c9.jpg)
 ## Code
-
 ```ino
 
 #define BLYNK_TEMPLATE_ID "---------"
@@ -686,8 +686,7 @@ void loop() {
 }
 ```  
 ## Experiment 2 - Yet to be completed 
-
-#Code
+# Code
 ```ino
 *  *
    ....
@@ -698,7 +697,7 @@ void loop() {
 ```
 ## Experiment 3 - Yet to be completed 
 
-#Code
+# Code
 ```ino
 *  *
    ....
@@ -708,8 +707,7 @@ void loop() {
    &&
 ```
 ## Experiment 4 - Yet to be completed 
-
-#Code
+# Code
 ```ino
 *  *
    ....
@@ -719,8 +717,7 @@ void loop() {
    &&
 ```
 ## Experiment 5 - Yet to be completed 
-
-#Code
+# Code
 ```ino
 *  *
    ....
@@ -730,8 +727,7 @@ void loop() {
    &&
 ```
 ## Experiment 6 - Yet to be completed 
-
-#Code
+# Code
 ```ino
 *  *
    ....
