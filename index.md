@@ -694,6 +694,17 @@ void loop() {
 ...
    &&
 ```
+## Experiment 3 - Yet to be completed 
+
+#Code
+```ino
+*  *
+   ....
+         >
+            #yet to be finished
+...
+   &&
+```
 
 
 
