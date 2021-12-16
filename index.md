@@ -651,5 +651,5 @@ void loop() {
 # IoT Bootcamp Level-2
 ## Experiment-1
 #### Second level of IOT Challlenge starts with some basic blynk apps
-*To be completed wait for it*
+> As ESP32 Boards were not available (As of now), I opt for NodeMCU-ESP8266 for conducting the experiments. Even though both boards differ a lot in features & capabilities, NodeMCU-ESP8266 could serve my purpose for the present scenario.
 
