@@ -649,7 +649,54 @@ void loop() {
 }
 ```
 # IoT Bootcamp Level-2
-## Experiment-1
-#### Second level of IOT Challlenge starts with some basic blynk apps
-> As ESP32 Boards were not available (As of now), I opt for NodeMCU-ESP8266 for conducting the experiments. Even though both boards differ a lot in features & capabilities, NodeMCU-ESP8266 could serve my purpose for the present scenario.
+### Second level of IOT Challlenge starts with some basic blynk apps
+
+> **As ESP32 Boards were not available (As of now), I opt for NodeMCU-ESP8266 for conducting the experiments. Even though both boards differ a lot in features & capabilities, NodeMCU-ESP8266 could serve my purpose for the present scenario.**
+## Experiment 1 - Hello World LED Program Using Blynk App
+![assignment 2](https://user-images.githubusercontent.com/81223681/132691137-1dc0f6a6-185d-403c-bf45-9b230a1810c9.jpg)
+## Code
+```ino
+#define BLYNK_TEMPLATE_ID "---------"
+#define BLYNK_DEVICE_NAME "---------"
+
+#define BLYNK_FIRMWARE_VERSION        "0.1.0"
+#define BLYNK_PRINT Serial
+#define APP_DEBUG
+
+#include "BlynkEdgent.h"
+
+BLYNK_WRITE(V0) {
+  int pinValue = param.asInt();
+  digitalWrite(15, pinValue);
+}
+
+void setup()
+{
+  pinMode(15, OUTPUT);
+  Serial.begin(115200);
+  delay(100);
+
+  BlynkEdgent.begin();
+}
+
+void loop() {
+  BlynkEdgent.run();
+}
+``` 
+## Experiment 2 - Yet to be completed 
+
+#Code
+```ino
+*  *
+   ....
+         >
+            #yet to be finished
+...
+   &&
+```
+
+
+
+
+
 
