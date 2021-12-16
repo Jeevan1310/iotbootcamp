@@ -727,6 +727,20 @@ void loop() {
 ...
    &&
 ```
+## Experiment 6 - Yet to be completed 
+
+#Code
+```ino
+*  *
+   ....
+         >
+            #yet to be finished
+...
+   &&
+```
+It was a rare experience for me to participate in iot challenge on gtech mulearn collaborated with foxlab
+I have some shortage of components for the experiment but i managed it with my friends from my college 
+
 
 
 
